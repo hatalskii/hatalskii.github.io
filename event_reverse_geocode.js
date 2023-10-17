@@ -14,6 +14,7 @@ function init() {
 
     // Слушаем клик на карте.
     myMap.events.add('click', function (e) {
+        console.log('clickmap');
         var coords = e.get('coords');
 
         // Если метка уже создана – просто передвигаем ее.
