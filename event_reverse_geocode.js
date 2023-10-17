@@ -1,5 +1,5 @@
 ymaps.ready(init);
-
+console.log('q');
 function init() {
     console.log('q');
     var myPlacemark,
