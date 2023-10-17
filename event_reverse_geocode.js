@@ -1,5 +1,8 @@
 ymaps.ready(init);
-
+const button = document.querySelector('.form-button');
+button.addEventListener('click', function(){
+    console.log('btn')
+})
 function init() {
     var myPlacemark,
         myMap = new ymaps.Map('map', {
