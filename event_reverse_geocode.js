@@ -2,6 +2,8 @@ ymaps.ready(init);
 const button = document.querySelector('.form-button');
 button.addEventListener('click', function(){
     console.log('btn')
+    const form = document.querySelector('.main-form')
+    console.log(form);
 })
 function init() {
     var myPlacemark,
